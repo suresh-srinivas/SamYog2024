@@ -49,3 +49,19 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+.button-register {
+    font-size: 20px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    color: white; /* White text, adjust color as needed */
+    background-color: #007BFF; /* Background color, e.g., blue */
+    padding: 10px 20px; /* Padding around the text */
+    text-decoration: none; /* Removes underline from links */
+    border-radius: 5px; /* Rounded corners for aesthetic */
+    display: inline-block; /* Ensures padding and width/height are respected */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button-register:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
